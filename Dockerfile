@@ -3,8 +3,8 @@ MAINTAINER mrjin<me@jinfeijie.cn>
 
 WORKDIR /
 
-ARG SS_VER=2.5.6
-ARG SS_URL=https://github.com/shadowsocks/shadowsocks-libev/archive/v$SS_VER.tar.gz
+ENV SS_VER=2.5.6
+ENV SS_URL=https://github.com/shadowsocks/shadowsocks-libev/archive/v$SS_VER.tar.gz
 
 ENV SERVER_ADDR 0.0.0.0
 ENV SERVER_PORT 8888
