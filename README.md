@@ -35,6 +35,6 @@
 
 🇨🇳🚗部署本镜像：`docker run -d -e METHOD=aes-256-cfb -e PASSWORD=jin123 -e SERVER_PORT=8888 -p 8888:8888 --restart=always --name=ss-demo registry.cn-hangzhou.aliyuncs.com/mrjin/shadowsocks`
 
-📧其他问题[me@jinfeijie.cn](mailto:me@jinfeijie.cn)
+📧其他问题[@jinfeijie](https://t.me/jinfeijie)
 
 ✨欢迎 Star && Fork
