@@ -1,3 +1,6 @@
+[![Docker Stars](https://img.shields.io/docker/stars/mrjin/shadowsocks.svg?style=flat-square)](https://hub.docker.com/r/mrjin/shadowsocks/)    [![Docker Pulls](https://img.shields.io/docker/pulls/mrjin/shadowsocks.svg?style=flat-square)](https://hub.docker.com/r/mrjin/shadowsocks/)    [![license](https://img.shields.io/github/license/jinfeijie/Docker.svg?style=flat-square)](https://github.com/jinfeijie/Docker)    [![Docker Automated buil](https://img.shields.io/docker/automated/mrjin/shadowsocks.svg?style=flat-square)](https://hub.docker.com/r/mrjin/shadowsocks/)    [![Libraries.io for GitHub](https://img.shields.io/librariesio/github/jinfeijie/Docker.svg?style=flat-square)](https://github.com/jinfeijie/Docker)
+
+ [![GitHub forks](https://img.shields.io/github/forks/jinfeijie/Docker.svg?style=social&label=Fork&style=plastic)](https://github.com/jinfeijie/Docker)    [![GitHub stars](https://img.shields.io/github/stars/jinfeijie/Docker.svg?style=social&label=Star&style=plastic)](https://github.com/jinfeijie/Docker)    [![Github Releases (by Release)](https://img.shields.io/github/downloads/jinfeijie/Docker/1.0.1/total.svg?style=plastic)](https://github.com/jinfeijie/Docker/releases)
 
 | 环境变量       | 默认值           | 
 | ------------- |:-------------:| 
