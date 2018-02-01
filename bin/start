@@ -1,0 +1,3 @@
+#! /bin/sh
+nohup ssserver -s $SERVER_ADDR -p $SERVER_PORT -k ${PASSWORD:-$(hostname)} -m $METHOD -t $TIMEOUT --fast-open -d $DNS_ADDR -d $DNS_ADDR_2 -u &
+tunserver -l :$TUN_PORT -t 127.0.0.1:$SERVER_PORT --key $PASSWORD --crypt $TUN_CRYPT --mode $TUN_MODE --mtu $TUN_MTU --ds $TUN_DATASHARD --ps $TUN_PS
