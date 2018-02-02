@@ -1,0 +1,10 @@
+language: python
+python:
+ - 2.7
+services:
+ - docker
+install:
+ - docker build -f Dockerfile -t strcpy-fly ./
+ - docker run -d -e PASSWORD=123456 -e TUN_PORT=15000 -p 15000:15000/udp --name strcpy-fly strcpy-fly
+script:
+ - docker ps

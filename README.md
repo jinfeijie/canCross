@@ -35,7 +35,7 @@ services:
       - PASSWORD=123456
       - TUN_PORT=9501
     ports:
-      - "9501:9501"
+      - "15000:15000/udp"
 ```
 
 
