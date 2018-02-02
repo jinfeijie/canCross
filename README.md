@@ -33,7 +33,7 @@ services:
     restart: always
     environment:
       - PASSWORD=123456 
-      - TUN_PORT=9501
+      - TUN_PORT=15000
     ports:
       - "15000:15000/udp"
 ```
