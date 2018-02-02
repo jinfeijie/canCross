@@ -32,7 +32,7 @@ services:
     container_name: strcpy-fly
     restart: always
     environment:
-      - PASSWORD=123456
+      - PASSWORD=123456 
       - TUN_PORT=9501
     ports:
       - "15000:15000/udp"
