@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/jinfeijie/Docker.svg?branch=alpine)](https://travis-ci.org/jinfeijie/Docker)     [![Docker Automated buil](https://img.shields.io/docker/automated/mrjin/shadowsocks.svg?style=flat-square)](https://hub.docker.com/r/mrjin/shadowsocks/)    [![Libraries.io for GitHub](https://img.shields.io/librariesio/github/jinfeijie/Docker.svg?style=flat-square)](https://github.com/jinfeijie/Docker)     [![license](https://img.shields.io/github/license/jinfeijie/Docker.svg?style=flat-square)](https://github.com/jinfeijie/Docker)
+[![Build Status](https://travis-ci.org/jinfeijie/canCross.svg?branch=alpine)](https://travis-ci.org/jinfeijie/canCross)     [![Docker Automated buil](https://img.shields.io/docker/automated/mrjin/shadowsocks.svg?style=flat-square)](https://hub.docker.com/r/mrjin/shadowsocks/)    [![Libraries.io for GitHub](https://img.shields.io/librariesio/github/jinfeijie/Docker.svg?style=flat-square)](https://github.com/jinfeijie/Docker)     [![license](https://img.shields.io/github/license/jinfeijie/Docker.svg?style=flat-square)](https://github.com/jinfeijie/Docker)
 
 
 ## 可修改变量
