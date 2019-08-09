@@ -1,4 +1,9 @@
-[![Build Status](https://travis-ci.org/jinfeijie/canCross.svg?branch=alpine)](https://travis-ci.org/jinfeijie/canCross)     [![Docker Automated buil](https://img.shields.io/docker/automated/mrjin/shadowsocks.svg?style=flat-square)](https://hub.docker.com/r/mrjin/shadowsocks/)    [![Libraries.io for GitHub](https://img.shields.io/librariesio/github/jinfeijie/Docker.svg?style=flat-square)](https://github.com/jinfeijie/Docker)     [![license](https://img.shields.io/github/license/jinfeijie/Docker.svg?style=flat-square)](https://github.com/jinfeijie/Docker)
+[![DockerHub Badge](https://dockeri.co/image/mrjin/shadowsocks)](https://hub.docker.com/r/mrjin/shadowsocks/)
+
+
+[![Docker Stars](https://img.shields.io/docker/stars/mrjin/shadowsocks.svg?style=flat-square)](https://hub.docker.com/r/mrjin/shadowsocks/)      [![Docker Pulls](https://img.shields.io/docker/pulls/mrjin/shadowsocks.svg?style=flat-square)](https://hub.docker.com/r/mrjin/shadowsocks/)    [![Docker Automated buil](https://img.shields.io/docker/automated/mrjin/shadowsocks.svg?style=flat-square)](https://hub.docker.com/r/mrjin/shadowsocks/)    
+
+[![license](https://img.shields.io/github/license/jinfeijie/Docker.svg?style=flat-square)](https://github.com/jinfeijie/Docker)     [![Libraries.io for GitHub](https://img.shields.io/librariesio/github/jinfeijie/Docker.svg?style=flat-square)](https://github.com/jinfeijie/Docker)
 
 
 ## 可修改变量
