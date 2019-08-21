@@ -4,8 +4,8 @@ MAINTAINER mrjin<me@jinfeijie.cn>
 WORKDIR /
 
 ENV MIRRORS     mirrors.ustc.edu.cn
-ENV SS_VER      2.5.6
-ENV SS_URL      https://github.com/shadowsocks/shadowsocks-libev/archive/v$SS_VER.tar.gz
+ENV SS_VER      3.3.1
+ENV SS_URL      https://github.com/shadowsocks/shadowsocks-libev.git
 ENV SERVER_ADDR 0.0.0.0
 ENV SERVER_PORT 8888
 ENV PASSWORD    jin123
@@ -23,20 +23,31 @@ ENV TUN_PS      3
 COPY bin/* /usr/bin/
 
 RUN set -ex && \
-    sed -i "s/dl-cdn.alpinelinux.org/$MIRRORS/g" /etc/apk/repositories && \
+    apk update && \
     apk add --no-cache --virtual .build-deps \
                                 asciidoc \
                                 autoconf \
+                                automake \
                                 build-base \
-                                curl \
                                 libtool \
                                 linux-headers \
+                                c-ares-dev \
+                                libev-dev \
+                                libsodium-dev \
+                                openssl \
                                 openssl-dev \
+                                mbedtls-dev \
                                 pcre-dev \
+                                zlib-dev \
                                 tar \
-                                xmlto && \
+                                xmlto \
+                                git && \
     cd /tmp && \
-    curl -sSL $SS_URL | tar xz --strip 1 && \
+    git clone $SS_URL shadowsocks && \
+    cd shadowsocks && \
+    git checkout v$SS_VER && \
+    git submodule init && git submodule update && \
+    autoreconf --install --force && \
     ./configure --prefix=/usr --disable-documentation && \
     make install && \
     cd .. && \
@@ -48,7 +59,6 @@ RUN set -ex && \
             | sort -u \
     )" && \
     apk add --no-cache --virtual .run-deps $runDeps && \
-    mv /usr/bin/ss-server /usr/bin/ssserver && \
     apk del .build-deps && \
     rm -rf /tmp/* 
 
