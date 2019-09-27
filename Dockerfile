@@ -41,6 +41,7 @@ RUN set -ex && \
                                 zlib-dev \
                                 tar \
                                 xmlto \
+                                haveged \
                                 git && \
     cd /tmp && \
     git clone $SS_URL shadowsocks && \
